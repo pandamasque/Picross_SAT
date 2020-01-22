@@ -35,3 +35,7 @@ The problem here is that in order for a SAT solver to work we need a conjunctive
 
 Then all those constraints concerning each row are put together in conjunctive form (the conjunction of a conjunction is a conjunction).
 This final set of constraints is then given to the python SAT solver, its anwser will be converted to a a grid and returned. 
+
+## Special thanks
+
+Thanks to Laurent Simon for providing the pySAT solver and the lessons about SAT.
